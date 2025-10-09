@@ -8,21 +8,21 @@ const testimonials = [
     role: 'Owner RZ Tech',
     feedback:
       'Website yang dibuat bener-bener profesional! Desainnya clean, responsif, dan bantu banget buat ningkatin kepercayaan klien.',
-    avatar: '/avatars/rizky.jpg',
+    avatar: 'https://randomuser.me/api/portraits/men/65.jpg',
   },
   {
     name: 'Dewi Lestari',
     role: 'Founder DayaCipta Studio',
     feedback:
       'Timnya responsif dan ngerti banget apa yang aku mau. Proses cepat, hasilnya estetik banget! Highly recommended!',
-    avatar: '/avatars/dewi.jpg',
+    avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
   },
   {
     name: 'Bagas Firmansyah',
     role: 'Digital Marketer',
     feedback:
       'Mantap banget! Website toko online-nya jalan lancar, dan udah bantu ningkatin penjualan juga.',
-    avatar: '/avatars/bagas.jpg',
+    avatar: 'https://randomuser.me/api/portraits/men/32.jpg',
   },
 ]
 

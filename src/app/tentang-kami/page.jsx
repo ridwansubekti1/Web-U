@@ -43,7 +43,7 @@ export default function AboutPage() {
         >
           <motion.div variants={fadeUp}>
             <img
-              src="/images/about-team.jpg"
+              src="/images/next.svg"
               alt="Tim Web U"
               className="rounded-3xl shadow-lg object-cover"
             />
