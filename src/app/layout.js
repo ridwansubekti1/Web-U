@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
+      suppressHydrationWarning //Prevent hydration mismatch caused by browser extensions
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar/>

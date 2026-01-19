@@ -41,11 +41,18 @@ export default function AboutPage() {
           viewport={{ once: true }}
           className="grid lg:grid-cols-2 gap-12 items-center"
         >
-          <motion.div variants={fadeUp}>
+           <motion.div variants={fadeUp} className="flex justify-center">
             <img
-              src="/images/next.svg"
+              src="/images/logo.svg"
               alt="Tim Web U"
-              className="rounded-3xl shadow-lg object-cover"
+              className="
+                w-64 sm:w-72 lg:w-80
+                h-auto
+                rounded-3xl
+                shadow-xl
+                transition-transform duration-300
+                hover:scale-105
+              "
             />
           </motion.div>
 
