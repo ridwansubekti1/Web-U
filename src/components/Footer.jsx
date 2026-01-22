@@ -4,11 +4,13 @@ import { Instagram } from 'lucide-react'; // Ikon sosmed
 
 export default function Footer() {
   const pages = [
-    { name: 'Beranda', href: '#beranda' },
-    { name: 'Tentang kami', href: '#tentang-kami' },
-    { name: 'Portfolio', href: '#portofolio' },
-    { name: 'Layanan', href: '#layanan' },
-    { name: 'Testimoni', href: '#testimoni' },
+    { name: 'Beranda', href: '/' },
+    { name: 'Produk', href: '/produk' },
+    { name: 'Testimoni', href: '/testimoni' },
+    { name: 'Tentang kami', href: '/tentang-kami' },
+    // { name: 'Portfolio', href: '#portofolio' },
+    // { name: 'Layanan', href: '#layanan' },
+    
   ];
 
   const socialLinks = [

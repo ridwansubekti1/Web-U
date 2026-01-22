@@ -31,7 +31,7 @@ export default function Navbar() {
   ]
 
   const navLinks = [
-    { name: "Testimoni", href: "/testimonials" },
+    { name: "Testimoni", href: "/testimoni" },
     { name: "Tentang Kami", href: "/tentang-kami" },
   ]
 
@@ -54,7 +54,7 @@ export default function Navbar() {
         {/* LOGO */}
         <Link href="/" className="flex items-center gap-2">
           <img
-            src="https://webu-pink.vercel.app/logo.png"
+            src="/images/logo.png"
             alt="Logo"
             className="h-8 w-auto"
           />
@@ -70,7 +70,7 @@ export default function Navbar() {
           {/* Product Dropdown */}
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold text-gray-900 dark:text-white hover:text-[#2596be]">
-              Product
+              Produk
               <ChevronDownIcon className="w-5 h-5 text-gray-400" />
             </Popover.Button>
             <Transition
@@ -165,7 +165,7 @@ export default function Navbar() {
             <Dialog.Panel className="fixed inset-y-0 right-0 w-3/4 max-w-sm bg-white dark:bg-gray-900 shadow-lg p-6 flex flex-col gap-6">
               <div className="flex items-center justify-between">
                 <img
-                  src="https://webu-pink.vercel.app/logo.png"
+                  src="/images/logo.png"
                   alt="Logo"
                   className="h-8"
                 />
